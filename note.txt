@@ -1,0 +1,12 @@
+git pull // lấy code từ github về
+git checkout -b feat/python-game :tạo nhánh
+
+code xong thì đẩy lên:
+git add .
+git commit -m "..."
+git push origin -f <tên nhánh>
+
+
+// xong
+git checkout master // chuyển nhánh sáng master
+git pull // lấy code từ github về
